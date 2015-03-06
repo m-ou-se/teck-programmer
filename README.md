@@ -4,5 +4,5 @@ Programmer for TECK keyboards.
 ## Usage
 
 ```
-$ node cli.js firmware.hex
+$ node main.js firmware.hex
 ```
