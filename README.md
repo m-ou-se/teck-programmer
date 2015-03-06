@@ -6,3 +6,5 @@ Programmer for TECK keyboards.
 ```
 $ node main.js firmware.hex
 ```
+
+Tested only on Linux, but probably also works on Windows and Mac.
