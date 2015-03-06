@@ -4,10 +4,11 @@ Programmer for TECK keyboards.
 ## Usage
 
 ```
+$ npm install
 $ node main.js firmware.hex
 ```
 
-Tested only on Linux, but probably also works on Windows and Mac.
+Tested only on Linux, but might also work on Windows. It doesn't work on Mac.
 
 ### Linux
 
