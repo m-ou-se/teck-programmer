@@ -1,9 +1,15 @@
 {
-	"name": "teck-programmer",
-	"version": "1.0.0",
-	"private": true,
-	"dependencies": {
-		"q": "*",
-		"usb": "*"
-	}
+  "name": "teck-programmer",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/m-ou-se/teck-programmer.git"
+  },
+  "bin": {
+    "teck-firmware-upgrade": "./cli.js"
+  },
+  "dependencies": {
+    "q": "^1.2.0",
+    "usb": "^1.0.5"
+  }
 }

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 var Q = require('q');
 
@@ -7,7 +9,7 @@ var programmer = require('./programmer');
 var filename = process.argv[2];
 
 if (filename === undefined) {
-	console.log("Usage: " + process.argv[0] + ' ' + process.argv[1] + " <hex file>");
+	console.log("Usage: teck-firmware-upgrade <hex file>");
 	process.exit(0);
 }
 

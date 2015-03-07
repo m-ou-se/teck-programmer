@@ -4,8 +4,8 @@ Programmer for TECK keyboards.
 ## Usage
 
 ```
-$ npm install
-$ node main.js firmware.hex
+$ npm install -g teck-programmer
+$ teck-firmware-upgrade firmware.hex
 ```
 
 Tested only on Linux, but might also work on Windows. It doesn't work on Mac.
