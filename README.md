@@ -8,12 +8,16 @@ $ npm install -g teck-programmer
 $ teck-firmware-upgrade firmware.hex
 ```
 
-Tested only on Linux, but might also work on Windows. It doesn't work on Mac.
+Tested on Linux and Mac, but might also work on Windows.
 
 ### Linux
 
 This program needs direct access to the usb device, which is usually only accessable for root.
 Copy `40-teck.rules` into `/etc/udev/rules.d` to automatically give yourself rights on the usb device.
+
+### Mac
+
+No additional configuration needed.
 
 ## License
 
