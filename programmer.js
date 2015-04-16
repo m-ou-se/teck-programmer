@@ -9,7 +9,7 @@ function claim_interface(device) {
 	device.open();
 	var interface = device.interface(0);
 	try { interface.detachKernelDriver(); } catch(e) {}
-	interface.claim();
+	try { interface.claim(); } catch(e) {}
 }
 
 function send_packet(device, data) {
