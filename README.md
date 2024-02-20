@@ -17,7 +17,7 @@ Copy `40-teck.rules` into `/etc/udev/rules.d` to automatically give yourself rig
 
 ### Mac
 
-No additional configuration needed.
+No additional configuration needed. You might need to use an older NodeJS version (16 is confirmed to work).
 
 ## License
 
