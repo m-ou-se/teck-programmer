@@ -9,6 +9,7 @@ $ teck-firmware-upgrade firmware.hex
 ```
 
 Tested on Linux and Mac, but might also work on Windows.
+To create custom firmwares for legacy models, visit the old [Custom Layout Designer page](https://trulyergonomic.com/store/layout-designer--configurator--reprogrammable--truly-ergonomic-mechanical-keyboard.html).
 
 ### Linux
 
